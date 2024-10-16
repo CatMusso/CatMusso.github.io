@@ -1,0 +1,39 @@
+h1 {
+  color: red;
+}
+
+h1::first-letter {
+  color: coral;
+}
+
+/* OOCSS*/
+
+/* Элемент*/
+.button {
+  width: 150px;
+  height: 50px;
+}
+/* Стили оформления элемента*/
+.button-red {
+  background: rgb(177, 234, 91);
+  color: rgb(255, 128, 0);
+  border: 1px solid black;
+}
+/* Стили содержимого */
+.header .button {
+  width: 250px;
+}
+
+.advert {
+  border: 1px solid black;
+}
+
+.mark {
+  font-weight: bolder;
+}
+
+.underground {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
