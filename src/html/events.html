@@ -6,11 +6,9 @@
     @@include('blocks/page-header.html')
     
     <main class="main">
-
       <div class="events">
         <section class="listing events__listing">
           <h2 class="listing__title section-title">Мероприятия</h2>
-
           <div class="listing__events-list">
             <!-- prettier-ignore -->
             @@loop('blocks/event-card.html', [
@@ -70,16 +68,15 @@
               }
             ])
           </div>
-
-          <!-- Кнопка "Показать все" -->
         </section>
-        
-        <!-- Остальная разметка -->
-    </div>
+        @@include('blocks/table.html, {"class": "events__tariffs-table"}')
+      </div>
+      
     </main>
 
     @@include('blocks/page-footer.html')
 
+                                        <!-- БЛОК НИЖЕ ОТВЕЧАЕТ ЗА ПОП-АП -->
     @@include('blocks/event-pp.html')
   </body>
 </html>
