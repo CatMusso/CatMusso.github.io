@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru" class="show-event-popup">
-    @@include('blocks/head.html')
-    
+  @@include('blocks/head.html')
+
   <body class="body">
     @@include('blocks/page-header.html')
-    
+
     <main class="main">
       <div class="events">
         <section class="listing events__listing">
@@ -69,14 +69,13 @@
             ])
           </div>
         </section>
-        @@include('blocks/table.html, {"class": "events__tariffs-table"}')
+        @@include('blocks/table.html', {"class": "events__tariffs-table"})
       </div>
-      
     </main>
 
     @@include('blocks/page-footer.html')
 
-                                        <!-- БЛОК НИЖЕ ОТВЕЧАЕТ ЗА ПОП-АП -->
+    <!-- БЛОК НИЖЕ ОТВЕЧАЕТ ЗА ПОП-АП -->
     @@include('blocks/event-pp.html')
   </body>
 </html>
